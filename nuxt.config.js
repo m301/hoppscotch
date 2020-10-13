@@ -123,13 +123,14 @@ export default {
     "@nuxtjs/svg",
     // Doc: https://tailwindcss.nuxtjs.org
     "@nuxtjs/tailwindcss",
-    // Doc: https://color-mode.nuxtjs.org
-    "@nuxtjs/color-mode",
+    
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
+    // Doc: https://color-mode.nuxtjs.org
+    "@nuxtjs/color-mode",
     // https://axios.nuxtjs.org
     "@nuxtjs/axios",
     // https://github.com/nuxt-community/modules/tree/master/packages/toast
